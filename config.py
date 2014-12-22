@@ -37,10 +37,10 @@ def configure(advanced):
     # user or not.  You should effect your configuration by manipulating the
     # registry as appropriate.
     from supybot.questions import expect, anything, something, yn
-    conf.registerPlugin('Dozo-plugin', True)
+    conf.registerPlugin('dozo', True)
 
 
-#Dozo-plugin = conf.registerPlugin('dozo')
+dozo = conf.registerPlugin('dozo')
 # This is where your configuration variables (if any) should go.  For example:
 # conf.registerGlobalValue(Dozo-plugin, 'someConfigVariableName',
 #     registry.Boolean(False, _("""Help for someConfigVariableName.""")))
