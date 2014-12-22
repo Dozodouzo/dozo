@@ -77,6 +77,13 @@ class dozo(callbacks.Plugin):
         irc.reply('4OH SHIT SON!!!!', prefixNick=False)
     panic = wrap(panic)
 
+    def notpanic(self, irc, msg, args):
+        """
+        ohshit heh
+        """
+        irc.reply('3GREAT SUCCESS!!!!', prefixNick=False)
+    notpanic = wrap(notpanic)
+
 Class = dozo
 
 
