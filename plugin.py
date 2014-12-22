@@ -63,6 +63,13 @@ class dozo(callbacks.Plugin):
         irc.reply('lmayyo', prefixNick=False)
     ayy = wrap(ayy)
 	
+    def destinyfucker(self, irc, msg, args):
+		"""
+		kek
+		"""
+		irc.reply('Implacable PLS', prefixNick=False)
+	destinyfucker = wrap(destinyfucker)
+
 Class = dozo
 
 
