@@ -40,7 +40,7 @@ def configure(advanced):
     conf.registerPlugin('Dozo-plugin', True)
 
 
-Dozo-plugin = conf.registerPlugin('dozo')
+#Dozo-plugin = conf.registerPlugin('dozo')
 # This is where your configuration variables (if any) should go.  For example:
 # conf.registerGlobalValue(Dozo-plugin, 'someConfigVariableName',
 #     registry.Boolean(False, _("""Help for someConfigVariableName.""")))

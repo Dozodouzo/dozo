@@ -34,12 +34,12 @@ import supybot.plugins as plugins
 import supybot.ircutils as ircutils
 import supybot.callbacks as callbacks
 
-class dozo(callbacks.Plugin):
+class dozo(self, irc, msg):
     """Add the help for "@plugin help Dozo-plugin" here
     This should describe *how* to use this plugin."""
-    def __init__(self, irc):
-        callbacks.Plugin.__init__(self, irc)
-		
+    #def __init__(self, irc):
+    #    callbacks.Plugin.__init__(self, irc)
+	#	
 	def dozo(self, irc, msg):
 		irc.reply{'more like bozo amirite'}
 
