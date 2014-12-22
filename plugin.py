@@ -42,7 +42,7 @@ class dozo(callbacks.Plugin):
     def __init__(self, irc):
         callbacks.Plugin.__init__(self, irc)
 		
-	def dozo(self, irc, msg):
+	def dozo(self, irc, msg, args):
 		irc.reply(the_message)
 
 
