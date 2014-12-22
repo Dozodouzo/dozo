@@ -67,7 +67,7 @@ class dozo(callbacks.Plugin):
         """
         kek
         """
-        irc.reply('Implacable PLS', prefixNick=False)
+        irc.reply('wat', prefixNick=False)
     destinyfucker = wrap(destinyfucker)
 
     def panic(self, irc, msg, args):
