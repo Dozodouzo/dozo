@@ -39,7 +39,8 @@ class dozo(callbacks.Plugin):
     This should describe *how* to use this plugin."""
     def __init__(self, irc):
         callbacks.Plugin.__init__(self, irc)
-		
+
+
 	def dozo(self, irc, msg, args):
 		"""
 		PLS
