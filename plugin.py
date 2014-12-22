@@ -45,9 +45,9 @@ class dozo(callbacks.Plugin):
         """
         PLS
         """
-        irc.reply('more like bozo amirite')
+        irc.reply('more like bozo amirite', prefixNick=False)
 
-    dozo = wrap(dozo, prefixNick=False)
+    dozo = wrap(dozo)
 Class = dozo
 
 
