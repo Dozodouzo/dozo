@@ -48,7 +48,15 @@ class dozo(callbacks.Plugin):
         irc.reply('more like bozo amirite', prefixNick=False)
 
     dozo = wrap(dozo)
-Class = dozo
+
+    def bentou(self, irc, msg, args):
+        """
+        lel
+        """
+        irc.reply('needs a shower', prefixNick=False)
+    bentou = wrap(bentou)
+
+	Class = dozo
 
 
 # vim:set shiftwidth=4 softtabstop=4 expandtab textwidth=79:
