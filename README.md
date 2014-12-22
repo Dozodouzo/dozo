@@ -1,4 +1,2 @@
-dozo-plugin
-===========
-
-Supybot plugin that spits out 'more like bozo amirite' when called
+Insert a description of your plugin here, with any notes, etc. about 
+using it.
