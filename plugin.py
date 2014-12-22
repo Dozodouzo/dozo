@@ -45,7 +45,7 @@ class dozo(callbacks.Plugin):
 	def dozo(self, irc, msg, args):
 		irc.reply(the_message)
 
-
+	dozo = wrap(dozo)
 Class = dozo
 
 
