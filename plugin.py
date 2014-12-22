@@ -64,11 +64,11 @@ class dozo(callbacks.Plugin):
     ayy = wrap(ayy)
 	
     def destinyfucker(self, irc, msg, args):
-		"""
-		kek
-		"""
-		irc.reply('Implacable PLS', prefixNick=False)
-	destinyfucker = wrap(destinyfucker)
+        """
+        kek
+        """
+        irc.reply('Implacable PLS', prefixNick=False)
+    destinyfucker = wrap(destinyfucker)
 
 Class = dozo
 
