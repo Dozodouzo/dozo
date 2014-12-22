@@ -34,8 +34,6 @@ import supybot.plugins as plugins
 import supybot.ircutils as ircutils
 import supybot.callbacks as callbacks
 
-the_message = 'more like bozo amirite'
-
 class dozo(callbacks.Plugin):
     """Add the help for "@plugin help Dozo-plugin" here
     This should describe *how* to use this plugin."""
