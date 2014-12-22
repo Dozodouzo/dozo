@@ -40,8 +40,8 @@ class dozo(callbacks.Plugin):
     def __init__(self, irc):
         callbacks.Plugin.__init__(self, irc)
 
-
-	def dozo(self, irc, msg, args):
+		
+    def dozo(self, irc, msg, args):
 		"""
 		PLS
 		"""
