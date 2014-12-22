@@ -39,11 +39,7 @@ the_message = 'more like bozo amirite'
 class dozo(self, irc, msg):
     """Add the help for "@plugin help Dozo-plugin" here
     This should describe *how* to use this plugin."""
-    #def __init__(self, irc):
-    #    callbacks.Plugin.__init__(self, irc)
-	#	
-#def dozo(self, irc, msg):
-	irc.reply{the_message}
+irc.reply{the_message}
 
 
 Class = dozo
