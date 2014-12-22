@@ -44,7 +44,11 @@ except ImportError:
 class Dozo-plugin(callbacks.Plugin):
     """Add the help for "@plugin help Dozo-plugin" here
     This should describe *how* to use this plugin."""
-    pass
+    def __init__(self, irc):
+        callbacks.Plugin.__init__(self, irc)
+		
+	def dozo(self, irc, msg):
+		irc.reply{'more like bozo amirite'}
 
 
 Class = Dozo-plugin
