@@ -112,6 +112,13 @@ class dozo(callbacks.Plugin):
         irc.reply('http://niceme.me/', prefixNick=False)
     nm = wrap(nm)
 
+    def dium(self, irc, msg, args):
+        """
+        kek
+        """
+        irc.reply('dium more like dum amirite', prefixNick=False)
+    dium = wrap(dium)
+
 Class = dozo
 
 
