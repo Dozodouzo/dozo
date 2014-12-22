@@ -49,7 +49,7 @@ class dozo(callbacks.Plugin):
 
     dozo = wrap(dozo)
 
-    def bentou(self, irc, msg, args, nick):
+    def bentou(self, irc, msg, args):
         """
         lel
         """
