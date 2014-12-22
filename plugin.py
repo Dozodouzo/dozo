@@ -43,7 +43,7 @@ class dozo(callbacks.Plugin):
         callbacks.Plugin.__init__(self, irc)
 		
 	def dozo(self, irc, msg):
-		irc.reply("more like bozo amirite")
+		irc.reply(the_message)
 
 
 Class = dozo
