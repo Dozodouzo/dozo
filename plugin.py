@@ -84,6 +84,20 @@ class dozo(callbacks.Plugin):
         irc.reply('3GREAT SUCCESS!!!!', prefixNick=False)
     notpanic = wrap(notpanic)
 
+    def blame(self, irc, msg, args):
+        """
+        ohshit heh
+        """
+        irc.reply('Episode 8 of Daito is never getting finished! Give up!', prefixNick=False)
+    blame = wrap(blame)
+
+    def bench(self, irc, msg, args):
+        """
+        ohshit heh
+        """
+        irc.reply('http://bentou.me/Software/prime95/p95v279.win64.zip', prefixNick=False)
+    bench = wrap(bench)
+
 Class = dozo
 
 
