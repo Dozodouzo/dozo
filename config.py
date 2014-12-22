@@ -30,13 +30,6 @@
 
 import supybot.conf as conf
 import supybot.registry as registry
-try:
-    from supybot.i18n import PluginInternationalization
-    _ = PluginInternationalization('Dozo-plugin')
-except:
-    # Placeholder that allows to run the plugin on a bot
-    # without the i18n module
-    _ = lambda x:x
 
 def configure(advanced):
     # This will be called by supybot to configure this module.  advanced is
@@ -47,7 +40,7 @@ def configure(advanced):
     conf.registerPlugin('Dozo-plugin', True)
 
 
-
+Dozo-plugin = conf.registerPlugin('dozo')
 # This is where your configuration variables (if any) should go.  For example:
 # conf.registerGlobalValue(Dozo-plugin, 'someConfigVariableName',
 #     registry.Boolean(False, _("""Help for someConfigVariableName.""")))

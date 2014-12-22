@@ -41,7 +41,7 @@ except ImportError:
     # without the i18n module
     _ = lambda x:x
 
-class Dozo-plugin(callbacks.Plugin):
+class dozo(callbacks.Plugin):
     """Add the help for "@plugin help Dozo-plugin" here
     This should describe *how* to use this plugin."""
     def __init__(self, irc):
@@ -51,7 +51,7 @@ class Dozo-plugin(callbacks.Plugin):
 		irc.reply{'more like bozo amirite'}
 
 
-Class = Dozo-plugin
+Class = dozo
 
 
 # vim:set shiftwidth=4 softtabstop=4 expandtab textwidth=79:
