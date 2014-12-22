@@ -53,7 +53,7 @@ class dozo(callbacks.Plugin):
         """
         lel
         """
-        irc.reply('.kb' + msg.nick, prefixNick=False)
+        irc.reply('.kb ' + msg.nick, prefixNick=False)
     bentou = wrap(bentou)
 
     def ayy(self, irc, msg, args):
