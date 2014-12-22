@@ -34,8 +34,6 @@ import supybot.plugins as plugins
 import supybot.ircutils as ircutils
 import supybot.callbacks as callbacks
 
-nick = msg.nick
-
 class dozo(callbacks.Plugin):
     """Add the help for "@plugin help Dozo-plugin" here
     This should describe *how* to use this plugin."""
@@ -51,10 +49,11 @@ class dozo(callbacks.Plugin):
 
     dozo = wrap(dozo)
 
-    def bentou(self, irc, msg, args):
+    def bentou(self, irc, msg, args, nick):
         """
         lel
         """
+        nick = msg.nick
         irc.reply('.kb', prefixNick=False)
     bentou = wrap(bentou, [(nick)])
 
