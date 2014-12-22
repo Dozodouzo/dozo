@@ -102,7 +102,7 @@ class dozo(callbacks.Plugin):
         """
         kek
         """
-        irc.reply('stop kicking me rcombs!', prefixNick=False)
+        irc.reply('rcombs more like ERR:CANNOT FIND INSULT', prefixNick=False)
     destinyfucker = wrap(destinyfucker)
 
 Class = dozo
