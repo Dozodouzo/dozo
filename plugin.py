@@ -56,6 +56,13 @@ class dozo(callbacks.Plugin):
         irc.reply('needs a shower', prefixNick=False)
     bentou = wrap(bentou)
 
+    def ayy(self, irc, msg, args):
+        """
+        lmao
+        """
+        irc.reply('lmayyo', prefixNick=False)
+    ayy = wrap(ayy)
+	
 Class = dozo
 
 
