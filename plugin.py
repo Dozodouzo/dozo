@@ -98,6 +98,13 @@ class dozo(callbacks.Plugin):
         irc.reply('http://bentou.me/Software/prime95/p95v279.win64.zip', prefixNick=False)
     bench = wrap(bench)
 
+    def rcombs(self, irc, msg, args):
+        """
+        kek
+        """
+        irc.reply('stop kicking me rcombs!', prefixNick=False)
+    destinyfucker = wrap(destinyfucker)
+
 Class = dozo
 
 
