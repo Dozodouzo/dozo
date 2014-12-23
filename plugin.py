@@ -88,7 +88,7 @@ class dozo(callbacks.Plugin):
         """
         ohshit heh
         """
-        irc.reply('Episode 8 of Daito is never getting finished! Give up!', prefixNick=False)
+        irc.reply('Episode 9 of Daito is never getting finished! Give up!', prefixNick=False)
     blame = wrap(blame)
 
     def bench(self, irc, msg, args):
