@@ -119,12 +119,12 @@ class dozo(callbacks.Plugin):
         irc.reply('dium more like dum amirite', prefixNick=False)
     dium = wrap(dium)
 
-    def nbk(self, irc, msg, args):
-        """
-        kek
-        """
-        irc.reply('.k nbk', prefixNick=False)
-    nbk = wrap(nbk)
+    #def nbk(self, irc, msg, args):
+    #    """
+    #    kek
+    #    """
+    #    irc.reply('.k nbk', prefixNick=False)
+    #nbk = wrap(nbk)
 
     def isdozodrunk(self, irc, msg, args):
         """
