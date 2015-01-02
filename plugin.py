@@ -140,6 +140,13 @@ class dozo(callbacks.Plugin):
         irc.reply('chill bro.', prefixNick=False)
     vendorpony = wrap(vendorpony)
 
+    def sozo(self, irc, msg, args):
+        """
+        kek
+        """
+        irc.reply('Dozo pls. Are you drunk?', prefixNick=False)
+    sozo = wrap(sozo)
+
 Class = dozo
 
 
