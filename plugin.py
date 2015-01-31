@@ -155,29 +155,29 @@ class dozo(callbacks.Plugin):
         irc.reply('Eien stinx', prefixNick=False)
     eien = wrap(eien)
 
-    #def ayylmao(self, irc, msg, args):
-    #    """
-    #    kek
-    #    """
-    #    irc.reply('░░░░░░▄▀▒▒▒▒░░░░▒▒▒▒▒▒▒▒▒▒▒▒▒█', prefixNick=False)
-    #    irc.reply('░░░░░█▒▒▒▒░░░░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█', prefixNick=False)
-    #    irc.reply('░░░░█▒▒▄▀▀▀▀▀▄▄▒▒▒▒▒▒▒▒▒▄▄▀▀▀▀▀▀▄', prefixNick=False)
-    #    irc.reply('░░▄▀▒▒▒▄█████▄▒█▒▒▒▒▒▒▒█▒▄█████▄▒█', prefixNick=False)
-    #    irc.reply('░█▒▒▒▒▐██▄████▌▒█▒▒▒▒▒█▒▐██▄████▌▒█', prefixNick=False)
-    #    irc.reply('▀▒▒▒▒▒▒▀█████▀▒▒█▒░▄▒▄█▒▒▀█████▀▒▒▒█', prefixNick=False)
-    #    irc.reply('▒▒▐▒▒▒░░░░▒▒▒▒▒█▒░▒▒▀▒▒█▒▒▒▒▒▒▒▒▒▒▒▒█', prefixNick=False)
-    #    irc.reply('▒▌▒▒▒░░░▒▒▒▒▒▄▀▒░▒▄█▄█▄▒▀▄▒▒▒▒▒▒▒▒▒▒▒▌', prefixNick=False)
-    #    irc.reply('▒▌▒▒▒▒░▒▒▒▒▒▒▀▄▒▒█▌▌▌▌▌█▄▀▒▒▒▒▒▒▒▒▒▒▒▐', prefixNick=False)
-    #    irc.reply('▒▐▒▒▒▒▒▒▒▒▒▒▒▒▒▌▒▒▀███▀▒▌▒▒▒▒▒▒▒▒▒▒▒▒▌', prefixNick=False)
-    #    irc.reply('▀▀▄▒▒▒▒▒▒▒▒▒▒▒▌▒▒▒▒▒▒▒▒▒▐▒▒▒▒▒▒▒▒▒▒▒█', prefixNick=False)
-    #    irc.reply('▀▄▒▀▄▒▒▒▒▒▒▒▒▐▒▒▒▒▒▒▒▒▒▄▄▄▄▒▒▒▒▒▒▄▄▀', prefixNick=False)
-    #    irc.reply('▒▒▀▄▒▀▄▀▀▀▄▀▀▀▀▄▄▄▄▄▄▄▀░░░░▀▀▀▀▀▀', prefixNick=False)
-    #    irc.reply('▒▒▒▒▀▄▐▒▒▒▒▒▒▒▒▒▒▒▒▒▐', prefixNick=False)
-    #    irc.reply('░▄▄▄░░▄░░▄░▄░░▄░░▄░░░░▄▄░▄▄░░░▄▄▄░░░▄▄▄', prefixNick=False)
-    #    irc.reply('█▄▄▄█░█▄▄█░█▄▄█░░█░░░█░░█░░█░█▄▄▄█░█░░░█', prefixNick=False)
-    #    irc.reply('█░░░█░░█░░░░█░░░░█░░░█░░█░░█░█░░░█░█░░░█', prefixNick=False)
-    #    irc.reply('▀░░░▀░░▀░░░░▀░░░░▀▀▀░░░░░░░░░▀░░░▀░▀▄▄▄▀', prefixNick=False)
-    #ayylmao = wrap(ayylmao)
+    def ayylmao(self, irc, msg, args):
+        """
+        kek
+        """
+        irc.reply('░░░░░░▄▀▒▒▒▒░░░░▒▒▒▒▒▒▒▒▒▒▒▒▒█', prefixNick=False)
+        irc.reply('░░░░░█▒▒▒▒░░░░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█', prefixNick=False)
+        irc.reply('░░░░█▒▒▄▀▀▀▀▀▄▄▒▒▒▒▒▒▒▒▒▄▄▀▀▀▀▀▀▄', prefixNick=False)
+        irc.reply('░░▄▀▒▒▒▄█████▄▒█▒▒▒▒▒▒▒█▒▄█████▄▒█', prefixNick=False)
+        irc.reply('░█▒▒▒▒▐██▄████▌▒█▒▒▒▒▒█▒▐██▄████▌▒█', prefixNick=False)
+        irc.reply('▀▒▒▒▒▒▒▀█████▀▒▒█▒░▄▒▄█▒▒▀█████▀▒▒▒█', prefixNick=False)
+        irc.reply('▒▒▐▒▒▒░░░░▒▒▒▒▒█▒░▒▒▀▒▒█▒▒▒▒▒▒▒▒▒▒▒▒█', prefixNick=False)
+        irc.reply('▒▌▒▒▒░░░▒▒▒▒▒▄▀▒░▒▄█▄█▄▒▀▄▒▒▒▒▒▒▒▒▒▒▒▌', prefixNick=False)
+        irc.reply('▒▌▒▒▒▒░▒▒▒▒▒▒▀▄▒▒█▌▌▌▌▌█▄▀▒▒▒▒▒▒▒▒▒▒▒▐', prefixNick=False)
+        irc.reply('▒▐▒▒▒▒▒▒▒▒▒▒▒▒▒▌▒▒▀███▀▒▌▒▒▒▒▒▒▒▒▒▒▒▒▌', prefixNick=False)
+        irc.reply('▀▀▄▒▒▒▒▒▒▒▒▒▒▒▌▒▒▒▒▒▒▒▒▒▐▒▒▒▒▒▒▒▒▒▒▒█', prefixNick=False)
+        irc.reply('▀▄▒▀▄▒▒▒▒▒▒▒▒▐▒▒▒▒▒▒▒▒▒▄▄▄▄▒▒▒▒▒▒▄▄▀', prefixNick=False)
+        irc.reply('▒▒▀▄▒▀▄▀▀▀▄▀▀▀▀▄▄▄▄▄▄▄▀░░░░▀▀▀▀▀▀', prefixNick=False)
+        irc.reply('▒▒▒▒▀▄▐▒▒▒▒▒▒▒▒▒▒▒▒▒▐', prefixNick=False)
+        irc.reply('░▄▄▄░░▄░░▄░▄░░▄░░▄░░░░▄▄░▄▄░░░▄▄▄░░░▄▄▄', prefixNick=False)
+        irc.reply('█▄▄▄█░█▄▄█░█▄▄█░░█░░░█░░█░░█░█▄▄▄█░█░░░█', prefixNick=False)
+        irc.reply('█░░░█░░█░░░░█░░░░█░░░█░░█░░█░█░░░█░█░░░█', prefixNick=False)
+        irc.reply('▀░░░▀░░▀░░░░▀░░░░▀▀▀░░░░░░░░░▀░░░▀░▀▄▄▄▀', prefixNick=False)
+    ayylmao = wrap(ayylmao)
 
 Class = dozo
 
