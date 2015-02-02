@@ -179,6 +179,13 @@ class dozo(callbacks.Plugin):
     #    irc.reply('▀░░░▀░░▀░░░░▀░░░░▀▀▀░░░░░░░░░▀░░░▀░▀▄▄▄▀', prefixNick=False)
     #ayylmao = wrap(ayylmao)
 
+    def ye(self, irc, msg, args):
+        """
+        kek
+        """
+        irc.reply('(*´ω｀*)', prefixNick=False)
+    ye = wrap(ye)
+
 Class = dozo
 
 
