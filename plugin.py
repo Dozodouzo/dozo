@@ -29,6 +29,7 @@
 
 ###
 
+import time
 import supybot.utils as utils
 from supybot.commands import *
 import supybot.plugins as plugins
@@ -75,7 +76,7 @@ class dozo(callbacks.Plugin):
         """
         kek
         """
-        wait 2
+        time.sleep( 2 )
         irc.reply('wat', prefixNick=False)
     destinyfucker = wrap(destinyfucker)
 
