@@ -115,12 +115,12 @@ class dozo(callbacks.Plugin):
     #    irc.reply('rcombs more like ERR:CANNOT FIND INSULT', prefixNick=False)
     #rcombs = wrap(rcombs)
 
-    def nm(self, irc, msg, args):
-        """
-        kek
-        """
-        irc.reply('http://niceme.me/', prefixNick=False)
-    nm = wrap(nm)
+    #def nm(self, irc, msg, args):
+    #    """
+    #    kek
+    #    """
+    #    irc.reply('http://niceme.me/', prefixNick=False)
+    #nm = wrap(nm)
 
     def dium(self, irc, msg, args):
         """
