@@ -80,19 +80,19 @@ class dozo(callbacks.Plugin):
         irc.reply('wat', prefixNick=False)
     destinyfucker = wrap(destinyfucker)
 
-    def panic(self, irc, msg, args):
-        """
-        ohshit
-        """
-        irc.reply('4OH SHIT SON!!!!', prefixNick=False)
-    panic = wrap(panic)
+    #def panic(self, irc, msg, args):
+    #    """
+    #    ohshit
+    #    """
+    #    irc.reply('4OH SHIT SON!!!!', prefixNick=False)
+    #panic = wrap(panic)
 
-    def notpanic(self, irc, msg, args):
-        """
-        ohshit heh
-        """
-        irc.reply('3GREAT SUCCESS!!!!', prefixNick=False)
-    notpanic = wrap(notpanic)
+    #def notpanic(self, irc, msg, args):
+    #    """
+    #    ohshit heh
+    #    """
+    #    irc.reply('3GREAT SUCCESS!!!!', prefixNick=False)
+    #notpanic = wrap(notpanic)
 
     #def blame(self, irc, msg, args):
     #    """
