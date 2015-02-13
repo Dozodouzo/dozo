@@ -63,7 +63,14 @@ class dozo(callbacks.Plugin):
         """
         irc.reply('lmayyo', prefixNick=False)
     ayy = wrap(ayy)
-	
+
+    def ayu(self, irc, msg, args):
+        """
+        lol
+        """
+        irc.reply('ymlayo' prefixNick=False)
+    ayu = wrap(ayu)
+
     #def destinyfucker(self, irc, msg, args):
     #    """
     #    kek
@@ -92,19 +99,19 @@ class dozo(callbacks.Plugin):
     #    irc.reply('Episode 9 of Daito is at Dozo and is never getting finished! Give up!', prefixNick=False)
     #blame = wrap(blame)
 
-    def bench(self, irc, msg, args):
-        """
-        ohshit heh
-        """
-        irc.reply('http://bentou.me/Software/prime95/p95v279.win64.zip', prefixNick=False)
-    bench = wrap(bench)
+    #def bench(self, irc, msg, args):
+    #    """
+    #    ohshit heh
+    #    """
+    #    irc.reply('http://bentou.me/Software/prime95/p95v279.win64.zip', prefixNick=False)
+    #bench = wrap(bench)
 
-    def rcombs(self, irc, msg, args):
-        """
-        kek
-        """
-        irc.reply('rcombs more like ERR:CANNOT FIND INSULT', prefixNick=False)
-    rcombs = wrap(rcombs)
+    #def rcombs(self, irc, msg, args):
+    #    """
+    #    kek
+    #    """
+    #    irc.reply('rcombs more like ERR:CANNOT FIND INSULT', prefixNick=False)
+    #rcombs = wrap(rcombs)
 
     def nm(self, irc, msg, args):
         """
@@ -120,12 +127,12 @@ class dozo(callbacks.Plugin):
         irc.reply('dium more like dum amirite', prefixNick=False)
     dium = wrap(dium)
 
-    #def nbk(self, irc, msg, args):
-    #    """
-    #    kek
-    #    """
-    #    irc.reply('.k nbk', prefixNick=False)
-    #nbk = wrap(nbk)
+    def nbk(self, irc, msg, args):
+        """
+        kek
+        """
+        irc.reply('.k nbk', prefixNick=False)
+    nbk = wrap(nbk)
 
     def isdozodrunk(self, irc, msg, args):
         """
@@ -186,12 +193,12 @@ class dozo(callbacks.Plugin):
         irc.reply('(*´ω｀*)', prefixNick=False)
     ye = wrap(ye)
 
-    def test(self, irc, msg, args):
-        """
-        kek
-        """
-        irc.reply('test', prefixNick=False)
-    test = wrap(test)
+    #def test(self, irc, msg, args):
+    #    """
+    #    kek
+    #    """
+    #    irc.reply('test', prefixNick=False)
+    #test = wrap(test)
 
 Class = dozo
 
