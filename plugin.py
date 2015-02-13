@@ -68,7 +68,7 @@ class dozo(callbacks.Plugin):
         """
         lol
         """
-        irc.reply('ymlayo' prefixNick=False)
+        irc.reply('ymlayo', prefixNick=False)
     ayu = wrap(ayu)
 
     #def destinyfucker(self, irc, msg, args):
