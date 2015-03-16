@@ -108,12 +108,12 @@ class dozo(callbacks.Plugin):
     #    irc.reply('http://bentou.me/Software/prime95/p95v279.win64.zip', prefixNick=False)
     #bench = wrap(bench)
 
-    #def rcombs(self, irc, msg, args):
-    #    """
-    #    kek
-    #    """
-    #    irc.reply('rcombs more like ERR:CANNOT FIND INSULT', prefixNick=False)
-    #rcombs = wrap(rcombs)
+    def rcombs(self, irc, msg, args):
+        """
+        kek
+        """
+        irc.reply('Thanks for the tip homie', prefixNick=False)
+    rcombs = wrap(rcombs)
 
     #def nm(self, irc, msg, args):
     #    """
