@@ -133,7 +133,7 @@ class dozo(callbacks.Plugin):
         """
         kek
         """
-        irc.reply('.k nbk', prefixNick=False)
+        irc.reply('http://is.dozo.moe/58np.png', prefixNick=False)
     nbk = wrap(nbk)
 
     def isdozodrunk(self, irc, msg, args):
